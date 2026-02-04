@@ -1,0 +1,14 @@
+{
+  "name": "llm-inference-gateway",
+  "private": true,
+  "version": "0.1.0",
+  "description": "LLM Inference Gateway admin console workspace",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "lint:frontend": "npm --prefix frontend run lint"
+  }
+}
